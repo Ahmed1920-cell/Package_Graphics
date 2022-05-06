@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\ahmed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Downloads\\Software_Packages\\Software Packages\\Software Packages\\Software Packages.csproj",
+      "projectUniqueName": "F:\\colledge\\year 3\\semester 2\\Graphics\\Software Packages GitHub\\Package_Graphics\\Software Packages\\Software Packages\\Software Packages.csproj",
       "projectName": "Software Packages",
-      "projectPath": "C:\\Users\\user\\Downloads\\Software_Packages\\Software Packages\\Software Packages\\Software Packages.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Downloads\\Software_Packages\\Software Packages\\Software Packages\\obj\\",
+      "projectPath": "F:\\colledge\\year 3\\semester 2\\Graphics\\Software Packages GitHub\\Package_Graphics\\Software Packages\\Software Packages\\Software Packages.csproj",
+      "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
+      "outputPath": "F:\\colledge\\year 3\\semester 2\\Graphics\\Software Packages GitHub\\Package_Graphics\\Software Packages\\Software Packages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
