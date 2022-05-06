@@ -1,0 +1,36 @@
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.exe
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.deps.json
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.runtimeconfig.json
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.dll
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.pdb
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.csproj.AssemblyReference.cache
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software_Packages.Form1.resources
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.csproj.GenerateResource.cache
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.GeneratedMSBuildEditorConfig.editorconfig
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.AssemblyInfoInputs.cache
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.AssemblyInfo.cs
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.csproj.CoreCompileInputs.cache
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.dll
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\refint\Software Packages.dll
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.pdb
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.genruntimeconfig.cache
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\ref\Software Packages.dll
+F:\colledge\year 3\semester 2\Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software_Packages.Properties.Resources.resources
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.exe
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.deps.json
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.runtimeconfig.json
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.dll
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\bin\Debug\net6.0-windows\Software Packages.pdb
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software_Packages.Form1.resources
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software_Packages.Properties.Resources.resources
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.csproj.GenerateResource.cache
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.AssemblyInfo.cs
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.dll
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\refint\Software Packages.dll
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.pdb
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.genruntimeconfig.cache
+C:\Users\user\Downloads\Software_Packages\Software Packages\Software Packages\obj\Debug\net6.0-windows\ref\Software Packages.dll
