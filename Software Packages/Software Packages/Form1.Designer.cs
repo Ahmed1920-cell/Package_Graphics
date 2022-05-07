@@ -59,12 +59,21 @@
             this.Y_Circle = new System.Windows.Forms.TextBox();
             this.X_Circle = new System.Windows.Forms.TextBox();
             this.Draw_circle = new System.Windows.Forms.Button();
+            this.ellipse_button = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.rx_ellipse = new System.Windows.Forms.TextBox();
+            this.ry_ellipse = new System.Windows.Forms.TextBox();
+            this.xc_ellipse = new System.Windows.Forms.TextBox();
+            this.yc_ellipse = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // DrawLineDDA
             // 
             this.DrawLineDDA.BackColor = System.Drawing.Color.DodgerBlue;
-            this.DrawLineDDA.Location = new System.Drawing.Point(41, 130);
+            this.DrawLineDDA.Location = new System.Drawing.Point(62, 146);
             this.DrawLineDDA.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DrawLineDDA.Name = "DrawLineDDA";
             this.DrawLineDDA.Size = new System.Drawing.Size(204, 41);
@@ -100,7 +109,7 @@
             this.panel1.Location = new System.Drawing.Point(295, -2);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(908, 565);
+            this.panel1.Size = new System.Drawing.Size(908, 710);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -261,7 +270,7 @@
             // DrawLineBresenham
             // 
             this.DrawLineBresenham.BackColor = System.Drawing.Color.DodgerBlue;
-            this.DrawLineBresenham.Location = new System.Drawing.Point(41, 313);
+            this.DrawLineBresenham.Location = new System.Drawing.Point(50, 321);
             this.DrawLineBresenham.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DrawLineBresenham.Name = "DrawLineBresenham";
             this.DrawLineBresenham.Size = new System.Drawing.Size(204, 40);
@@ -324,7 +333,7 @@
             // Draw_circle
             // 
             this.Draw_circle.BackColor = System.Drawing.Color.DodgerBlue;
-            this.Draw_circle.Location = new System.Drawing.Point(41, 485);
+            this.Draw_circle.Location = new System.Drawing.Point(62, 485);
             this.Draw_circle.Name = "Draw_circle";
             this.Draw_circle.Size = new System.Drawing.Size(190, 44);
             this.Draw_circle.TabIndex = 0;
@@ -332,12 +341,100 @@
             this.Draw_circle.UseVisualStyleBackColor = false;
             this.Draw_circle.Click += new System.EventHandler(this.Draw_circle_click_Click);
             // 
+            // ellipse_button
+            // 
+            this.ellipse_button.BackColor = System.Drawing.Color.DodgerBlue;
+            this.ellipse_button.Location = new System.Drawing.Point(50, 638);
+            this.ellipse_button.Name = "ellipse_button";
+            this.ellipse_button.Size = new System.Drawing.Size(190, 44);
+            this.ellipse_button.TabIndex = 34;
+            this.ellipse_button.Text = "Draw ellipse";
+            this.ellipse_button.UseVisualStyleBackColor = false;
+            this.ellipse_button.Click += new System.EventHandler(this.ellipse_button_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(191, 532);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(21, 20);
+            this.label16.TabIndex = 39;
+            this.label16.Text = "ry";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(71, 532);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(21, 20);
+            this.label17.TabIndex = 38;
+            this.label17.Text = "rx";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(191, 587);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(23, 20);
+            this.label18.TabIndex = 43;
+            this.label18.Text = "Yc";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(62, 587);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(25, 20);
+            this.label19.TabIndex = 44;
+            this.label19.Text = "Xc";
+            // 
+            // rx_ellipse
+            // 
+            this.rx_ellipse.Location = new System.Drawing.Point(50, 556);
+            this.rx_ellipse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rx_ellipse.Name = "rx_ellipse";
+            this.rx_ellipse.Size = new System.Drawing.Size(67, 27);
+            this.rx_ellipse.TabIndex = 45;
+            // 
+            // ry_ellipse
+            // 
+            this.ry_ellipse.Location = new System.Drawing.Point(166, 556);
+            this.ry_ellipse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ry_ellipse.Name = "ry_ellipse";
+            this.ry_ellipse.Size = new System.Drawing.Size(67, 27);
+            this.ry_ellipse.TabIndex = 46;
+            // 
+            // xc_ellipse
+            // 
+            this.xc_ellipse.Location = new System.Drawing.Point(50, 611);
+            this.xc_ellipse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.xc_ellipse.Name = "xc_ellipse";
+            this.xc_ellipse.Size = new System.Drawing.Size(67, 27);
+            this.xc_ellipse.TabIndex = 47;
+            // 
+            // yc_ellipse
+            // 
+            this.yc_ellipse.Location = new System.Drawing.Point(166, 611);
+            this.yc_ellipse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.yc_ellipse.Name = "yc_ellipse";
+            this.yc_ellipse.Size = new System.Drawing.Size(67, 27);
+            this.yc_ellipse.TabIndex = 48;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1281, 685);
+            this.Controls.Add(this.yc_ellipse);
+            this.Controls.Add(this.xc_ellipse);
+            this.Controls.Add(this.ry_ellipse);
+            this.Controls.Add(this.rx_ellipse);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.ellipse_button);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.Draw_circle);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label15);
@@ -410,5 +507,14 @@
         private TextBox Y_Circle;
         private TextBox X_Circle;
         private Button Draw_circle;
+        private Button ellipse_button;
+        private Label label16;
+        private Label label17;
+        private Label label18;
+        private Label label19;
+        private TextBox rx_ellipse;
+        private TextBox ry_ellipse;
+        private TextBox xc_ellipse;
+        private TextBox yc_ellipse;
     }
 }
