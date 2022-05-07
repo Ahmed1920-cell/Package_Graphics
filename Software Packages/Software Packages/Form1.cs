@@ -1,7 +1,7 @@
 namespace Software_Packages
 {
     public partial class Form1 : Form
-    {  public Point origin=new Point(454,355);
+    {  public Point origin=new Point(454-60,355-88);
 
         public Form1()
         {

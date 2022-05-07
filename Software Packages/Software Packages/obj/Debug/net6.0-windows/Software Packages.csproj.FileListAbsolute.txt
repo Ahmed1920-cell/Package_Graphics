@@ -52,3 +52,5 @@ F:\colledge\year 3\semester 2\Graphics\Software Packages GitHub\Package_Graphics
 F:\colledge\year 3\semester 2\Graphics\Software Packages GitHub\Package_Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.pdb
 F:\colledge\year 3\semester 2\Graphics\Software Packages GitHub\Package_Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software Packages.genruntimeconfig.cache
 F:\colledge\year 3\semester 2\Graphics\Software Packages GitHub\Package_Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\ref\Software Packages.dll
+F:\colledge\year 3\semester 2\Graphics\Software Packages GitHub\Package_Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software_Packages.Menu.resources
+F:\colledge\year 3\semester 2\Graphics\Software Packages GitHub\Package_Graphics\Software Packages\Software Packages\obj\Debug\net6.0-windows\Software_Packages.Form2.resources
