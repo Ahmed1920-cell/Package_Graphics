@@ -40,7 +40,7 @@
             this.Form2D.Name = "Form2D";
             this.Form2D.Size = new System.Drawing.Size(277, 59);
             this.Form2D.TabIndex = 0;
-            this.Form2D.Text = "2D Form";
+            this.Form2D.Text = "2D Shapes";
             this.Form2D.UseVisualStyleBackColor = false;
             this.Form2D.Click += new System.EventHandler(this.Form2D_Click);
             // 
@@ -51,7 +51,7 @@
             this.Form3D.Name = "Form3D";
             this.Form3D.Size = new System.Drawing.Size(277, 59);
             this.Form3D.TabIndex = 1;
-            this.Form3D.Text = "3D Form";
+            this.Form3D.Text = "2D Transformations";
             this.Form3D.UseVisualStyleBackColor = false;
             this.Form3D.Click += new System.EventHandler(this.Form3D_Click);
             // 

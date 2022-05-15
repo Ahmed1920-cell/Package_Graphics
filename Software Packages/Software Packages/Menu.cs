@@ -25,7 +25,7 @@ namespace Software_Packages
 
         private void Form3D_Click(object sender, EventArgs e)
         {
-            Form2 Form3D = new Form2();
+            Overorigin Form3D = new Overorigin();
             Form3D.ShowDialog();
         }
     }

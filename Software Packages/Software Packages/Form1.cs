@@ -1,7 +1,7 @@
 namespace Software_Packages
 {
     public partial class Form1 : Form
-    {  public Point origin=new Point(454-60,355-88);
+    {  public Point origin=new Point(341,253);
 
         public Form1()
         {
@@ -75,7 +75,13 @@ namespace Software_Packages
             int Y1 = Convert.ToInt32(Y1Bresenham.Text);
             int X2 = Convert.ToInt32(X2Bresenham.Text);
             int Y2 = Convert.ToInt32(Y2Bresenham.Text);
-            double slope = (Y2 - Y1) / (X2 - X1);
+            double slope;
+            if ((X2 - X1) == 0) {
+                slope = 99999; }
+            else {
+                slope = (Y2 - Y1) / (X2 - X1);
+            }
+            
             bool swap = false;
             //First Octant
             if (X1 < X2 && slope >= 0 && slope <= 1)
@@ -298,6 +304,11 @@ namespace Software_Packages
                     d2 = d2 + dx - dy + (rx * rx);
                 }
             }
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            panel1.Refresh();
         }
     }
 }
