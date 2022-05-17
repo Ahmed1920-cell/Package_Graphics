@@ -12,7 +12,7 @@ namespace Software_Packages
 {
     public partial class Overorigin : Form
     {
-        public Point origin = new Point(341, 253);
+        public Point origin = new Point(391, 339);
         public Overorigin()
         {
             InitializeComponent();
@@ -20,17 +20,18 @@ namespace Software_Packages
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int X1 = Convert.ToInt32(X1Draw.Text);
-            int Y1 = Convert.ToInt32(Y1Draw.Text);
+            int X1, X2,X3,X4, Y1, Y2, Y3, Y4 ;
+             X1 = Convert.ToInt32(X1Draw.Text);
+             Y1 = Convert.ToInt32(Y1Draw.Text);
 
-            int X2 = Convert.ToInt32(X2Draw.Text);
-            int Y2 = Convert.ToInt32(Y2Draw.Text);
+             X2 = Convert.ToInt32(X2Draw.Text);
+             Y2 = Convert.ToInt32(Y2Draw.Text);
 
-            int X3 = Convert.ToInt32(X3Draw.Text);
-            int Y3 = Convert.ToInt32(Y3Draw.Text);
+             X3 = Convert.ToInt32(X3Draw.Text);
+             Y3 = Convert.ToInt32(Y3Draw.Text);
 
-            int X4 = Convert.ToInt32(X4Draw.Text);
-            int Y4 = Convert.ToInt32(Y4Draw.Text);
+             X4 = Convert.ToInt32(X4Draw.Text);
+             Y4 = Convert.ToInt32(Y4Draw.Text);
             panel1.Refresh();
             lineDDA(X1, Y1, X2, Y2, Brushes.Blue);
             lineDDA(X2, Y2, X3, Y3, Brushes.Blue);
@@ -315,5 +316,7 @@ namespace Software_Packages
             lineDDA(-X3, -Y3, -X4, -Y4, Brushes.DarkCyan);
             lineDDA(-X1, -Y1, -X4, -Y4, Brushes.DarkCyan);
         }
+
+
     }
 }
