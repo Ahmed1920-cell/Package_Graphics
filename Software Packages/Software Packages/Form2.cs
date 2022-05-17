@@ -125,8 +125,8 @@ namespace Software_Packages
             con = Cos(Angel);
             sin = Math.Sin(Math.PI * Convert.ToDouble(Angel / 180));
 
-            x = (X * con) + (Y * sin);
-            y = (X * sin) - (Y * con);
+            x = (X * con) - (Y * sin);
+            y = (X * sin) + (Y * con);
 
             X = Convert.ToInt32(Math.Round(x));
             Y = Convert.ToInt32(Math.Round(y));
@@ -134,8 +134,8 @@ namespace Software_Packages
         }
         public double Cos(double Angel)
         {
-            double angel = Convert.ToInt32(Math.Cos(Math.PI * Angel / 180) * 100);
-            angel = Convert.ToDouble(angel / 100);
+            double angel = Convert.ToInt32(Math.Cos(Math.PI * Angel / 180) * 1000);
+            angel = Convert.ToDouble(angel / 1000);
             return angel;
         }
         private void Scaling2D_Click(object sender, EventArgs e)
