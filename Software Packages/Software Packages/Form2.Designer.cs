@@ -71,15 +71,16 @@
             this.ShX222 = new System.Windows.Forms.Label();
             this.ShY222 = new System.Windows.Forms.Label();
             this.Clear = new System.Windows.Forms.Button();
+            this.Draw_Triangle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DrawShape
             // 
             this.DrawShape.BackColor = System.Drawing.Color.DodgerBlue;
-            this.DrawShape.Location = new System.Drawing.Point(43, 167);
+            this.DrawShape.Location = new System.Drawing.Point(37, 167);
             this.DrawShape.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DrawShape.Name = "DrawShape";
-            this.DrawShape.Size = new System.Drawing.Size(250, 44);
+            this.DrawShape.Size = new System.Drawing.Size(111, 44);
             this.DrawShape.TabIndex = 0;
             this.DrawShape.Text = "Draw Shape";
             this.DrawShape.UseVisualStyleBackColor = false;
@@ -201,8 +202,8 @@
             this.X4Draw.PlaceholderText = "0";
             this.X4Draw.Size = new System.Drawing.Size(45, 27);
             this.X4Draw.TabIndex = 15;
-            this.X4Draw.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             this.X4Draw.Text = "0";
+            this.X4Draw.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // Y4Draw
             // 
@@ -507,11 +508,24 @@
             this.Clear.UseVisualStyleBackColor = false;
             this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
+            // Draw_Triangle
+            // 
+            this.Draw_Triangle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Draw_Triangle.Location = new System.Drawing.Point(186, 167);
+            this.Draw_Triangle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Draw_Triangle.Name = "Draw_Triangle";
+            this.Draw_Triangle.Size = new System.Drawing.Size(118, 44);
+            this.Draw_Triangle.TabIndex = 46;
+            this.Draw_Triangle.Text = "Draw Triangle";
+            this.Draw_Triangle.UseVisualStyleBackColor = false;
+            this.Draw_Triangle.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Overorigin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1136, 685);
+            this.Controls.Add(this.Draw_Triangle);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.ShY222);
             this.Controls.Add(this.ShX222);
@@ -558,6 +572,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Overorigin";
             this.Text = "2D Transformation";
+            this.Load += new System.EventHandler(this.Overorigin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -608,5 +623,6 @@
         private Label ShX222;
         private Label ShY222;
         private Button Clear;
+        private Button Draw_Triangle;
     }
 }
